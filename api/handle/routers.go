@@ -7,6 +7,7 @@ func Init(r *gin.Engine) *gin.Engine {
 	{
 		common.GET("/healthCheck", HealthCheck)
 		common.GET("/bingWp", bingWallpaper)
+		common.POST("/test", haha)
 	}
 
 	return r
